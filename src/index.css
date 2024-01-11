@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Open+Sans:wght@300;400;500;600&family=Outfit:wght@100;200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#root {
+  height: 100vh;
+}
+
+body {
+  /* background-image: radial-gradient(#3c3a4a, #0c0a1d); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #f2f2f2;
+  font-family: "Montserrat", sans-serif;
+  background: #070a13;
+}
+
+.bg {
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.stroke-text {
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.Caveat {
+  font-family: "Caveat", cursive;
+}
+
+.Outfit {
+  font-family: "Outfit", sans-serif;
+}
+
+.Open_Sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.Montserrat {
+  font-family: "Montserrat", sans-serif;
+}
